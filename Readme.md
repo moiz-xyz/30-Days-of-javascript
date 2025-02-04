@@ -8,6 +8,7 @@
 - What is JavaScript?  
 - How does it work in browsers?  
 
+
 ### Description:
 Learn about JavaScript, how it interacts with HTML and CSS, and how to run it in your browser's console or with Node.js.
 
