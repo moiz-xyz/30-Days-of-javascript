@@ -89,3 +89,4 @@ increment () // 4
 // Encapsulation (hiding variables)
 // Maintaining state (e.g., counters)
 // Event listeners and callbacks
+
