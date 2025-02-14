@@ -83,7 +83,7 @@ let user2 = {
   
 
 //   7. Looping Through Object Properties
-// a_Using for...in Loop
+//  for...in Loop
 // The for...in loop allows you to iterate over all keys (property names) in an object.
 
 let student = {
@@ -101,82 +101,6 @@ name: Ali
 age: 20
 course: JavaScript
 */
-// // 📌 Explanation:
-
-// // key gets the property name (name, age, course).
-// // student[key] gets the value of that property (Ali, 20, JavaScript).
-// This loop goes through each property and prints its name and value.
-
-// b Using Object.keys() to Get Keys
-// Object.keys(object) returns an array of property names, so we can use a forEach loop
-let car = {
-  brand: "Toyota",
-  model: "Corolla",
-  year: 2022
-};
-
-Object.keys(car).forEach(function(key) {
-  console.log(key + ": " + car[key]);
-});
-
-/* Output:
-brand: Toyota
-model: Corolla
-year: 2022
-*/
-
-// 📌 How It Works?
-
-// Object.keys(car) gives ["brand", "model", "year"].
-// .forEach() runs a loop for each key in the array.
-
-// c. Using Object.values() to Get Values Only
-// If you only want the values of an object, use Object.values().
-let phone = {
-  brand: "Samsung",
-  model: "S23",
-  price: 1200
-};
-
-console.log(Object.values(phone));
-
-/* Output:
-['Samsung', 'S23', 1200]
-*/
-
-// d. Using Object.entries() to Get Keys and Values Together
-// Object.entries(object) returns an array of key-value pairs.
-
-let laptop = {
-  brand: "HP",
-  price: 1500,
-  color: "Silver"
-};
-
-Object.entries(laptop).forEach(([key, value]) => {
-  console.log(`${key}: ${value}`);
-});
-
-/* Output:
-brand: HP
-price: 1500
-color: Silver
-*/
-
-// 📌 Explanation:
-
-// Object.entries(laptop) gives an array: [["brand", "HP"], ["price", 1500], ["color", "Silver"]].
-// We use [key, value] to get both key and value in the loop.
-
-
-// When to Use Which   Loop?
-// Method	           When to Use?
-// for...in	           When you need to loop through all properties of an object.
-// Object.keys()	   When you only need keys and want an array to loop through.
-// Object.values()	   When you only need values.
-// Object.entries()	   When you need both keys and values.
-
-
 
 // 8. Object.keys(), Object.values(), Object.entries()
 // JavaScript provides built-in methods to work with object properties.
