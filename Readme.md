@@ -399,7 +399,7 @@ Build a Simple Calculator
 Description:
 Create a calculator that performs basic operations like addition, subtraction, multiplication, and division.
 
-### Day 30: Practice Project - Random Number Guessing Game
+### Day 30: Practice Project - Grade Calculator & Quiz app
 ## Topics:
 Build a Grade Calculator and Quiz app
 Description:
@@ -417,8 +417,3 @@ Happy coding!
 ✅ Confidence to explore advanced JavaScript  
 
 ---
-
-🔥 **Ready to become a JavaScript pro? Let's go! 🚀**  
-
-"# 30-days-of-Javascript-" 
-"# helllo "
