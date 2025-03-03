@@ -401,9 +401,10 @@ Create a calculator that performs basic operations like addition, subtraction, m
 
 ### Day 30: Practice Project - Random Number Guessing Game
 ## Topics:
-Build a Random Number Guessing Game
+Build a Grade Calculator and Quiz app
 Description:
-Create a game where the user has to guess a random number.
+Create a Grade Calculator that caluates marks and displays perceentage at the end
+Create a quiz app that cantines quiz of HML CSS & JAVASCRIPT.
 
 Resources:
 MDN Web Docs
